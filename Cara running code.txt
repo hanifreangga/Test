@@ -1,0 +1,4 @@
+Untuk running code bisa menggunakan compiler javascript yang ada ataupun di web berikut.
+https://onecompiler.com/javascript
+
+Copy code ke web tersebut lalu klik run.
