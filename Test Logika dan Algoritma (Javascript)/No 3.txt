@@ -1,0 +1,51 @@
+
+function square( x , j )
+{
+  console.log("Deret Pertama :");
+  for( let i = 1 ;i <= x ;i++)
+	{ 
+	let j = i*i;
+	console.log(j);
+	}
+
+}
+	
+function odd( y )
+{
+  console.log("Deret Kedua :");
+  let i = 1; 
+  let j = 1;
+  let k = 1;
+  while(k <= y )
+  { 
+    console.log(j);	 
+	 	j=j+i;
+	 	i+=2;
+		k++;
+	}
+
+}
+
+function fibo( z )
+{
+  console.log("Deret Ketiga :");
+  let n1 = 0, j = 0, n2 = 1, nextTerm;
+  for (let i = 1; i <= z; i++) {
+    console.log(j)
+    j = j + n1;
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+  }
+}
+
+// Isi X untuk deret pertama
+let x = 10;
+// Isi Y untuk deret kedua
+let y = 10;
+//Isi Z untuk deret ketiga
+let z = 10;
+
+square(x);
+odd(y);
+fibo(z);
